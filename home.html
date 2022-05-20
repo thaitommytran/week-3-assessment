@@ -1,56 +1,59 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Homepage</title>
-	<link href="styles.css" rel="stylesheet">
+  <head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+      </ol>
+    </nav>
 
-</head>
-<body>
-	<nav>
-		<ol>
-	        <li class="crumb"><a href="./home.html">Home</a></li>
-	        <li class="crumb"><a href="./profile.html">Profile</a></li>
-	        <li class="crumb"><a href="./about.html">About</a></li>
-	    </ol>
-	</nav>
+    <content>
+      <h1>Welcome to this little website.</h1>
+      <p>Hello World</p>
+      <p>
+        Welcome to our brand new website featuring all your favorite things
+        related to black cats!
+      </p>
+      <ul>
+        <li>You're Awesome!</li>
+        <li>Cool Mustache!</li>
+        <li>Sick Cat, Bro!</li>
+      </ul>
 
-	<content>
-		<h1>Welcome to this little website.</h1>
-		<p>Hello World</p>
-		<p>Welcome to our brand new website featuring all your favorite things related to black cats!</p>
-		<ul>
-			<li>You're Awesome!</li>
-			<li>Cool Mustache!</li>
-			<li>Sick Cat, Bro!</li>
-		</ul>
+      <img
+        src="https://static.vecteezy.com/system/resources/thumbnails/002/373/248/small/black-cat-simple-logo-design-vector.jpg"
+      />
 
-		<img src="https://static.vecteezy.com/system/resources/thumbnails/002/373/248/small/black-cat-simple-logo-design-vector.jpg">
+      <h2>Contact Us</h2>
+      <form id="contact">
+        Your name:
+        <input type="text" />
+        <br />
 
-		<h2>Contact Us</h2>
-		<form id="contact">
-			Your name:
-			<input type="text">
+        Message:
+        <input type="textarea" />
+        <br />
 
-			Message:
-			<input type="textarea">
+        How did you hear about us?
+        <div class="hear-about-us">
+          <input type="checkbox" id="google" name="google" />
+          <label for="google">Google</label>
+          <input type="checkbox" id="friend" name="friend" />
+          <label for="friend">A friend</label>
+          <input type="checkbox" id="other" name="other" />
+          <label for="other">Other</label>
+        </div>
 
-			How did you hear about us?
-			<input type="checkbox" id="google" name="google">
-			<label for="google">Google</label>
-			<input type="checkbox" id="friend" name="friend">
-			<label for="friend">A friend</label>
-			<input type="checkbox" id="other" name="other">
-			<label for="other">Other</label>
+        <input type="submit" />
+      </form>
+    </content>
 
-			<input type="submit">
-
-
-		</form>
-
-	</content>
-
-
-	<script src="about.js"></script>
-
-</body>
+    <script src="about.js"></script>
+  </body>
 </html>

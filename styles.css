@@ -8,31 +8,78 @@ body {
 }
 
 nav {
-	border-bottom: 2px solid orange;
+  border-bottom: 2px solid orange;
 }
 
 ol {
-	padding-left: 0;
+  padding-left: 0;
 }
 
 .crumb {
-	margin-right: 2em;
-	display: inline;
+  margin-right: 2em;
+  display: inline;
 }
 
 a {
-	color: orange;
+  color: orange;
 }
 
 a:visited {
-	color: crimson;
+  color: crimson;
 }
 
-
 input {
-	display: block;
+  display: block;
 }
 
 img {
-	max-width: 300px;
+  max-width: 300px;
+}
+
+hr {
+  margin: 0;
+}
+
+.favorites {
+  background-color: yellow;
+  height: 3em;
+  font-weight: bold;
+  border: 1px solid;
+  box-shadow: 2px 2px 2px;
+}
+
+.favorites:hover {
+  background-color: rgb(255, 255, 105);
+  font-size: 1.1em;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  max-width: 200px;
+}
+
+#profile-text-container {
+  font-size: small;
+}
+
+#profile-pic-text-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  max-height: 300px;
+}
+
+#favorites-container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.hear-about-us {
+  display: flex;
+  padding: 12px 0px;
+  gap: 10px;
 }
